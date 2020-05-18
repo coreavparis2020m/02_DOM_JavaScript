@@ -1,4 +1,4 @@
-// Acceso a elementos
+// Acceso a elementos del dom
 
 // Por su atributo id
 
