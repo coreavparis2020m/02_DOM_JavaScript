@@ -2,6 +2,40 @@ h1 {
     color: green;
 }
 
-#register-btn:disabled {
+/* #register-btn:disabled {
     cursor: not-allowed;
+} */
+
+.card {
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px grey;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card p:first-child {
+    color: green;
+    font-size: 26px;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    display: none;
+}
+
+.card.checked p:first-child {
+    display: block;
+}
+
+
+label {
+    display: block;
+}
+
+label span {
+    font-size: 10px;
+    color: crimson;
+    display: none;
 }
